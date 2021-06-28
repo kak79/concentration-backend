@@ -19,6 +19,12 @@ games = Game.create(
       numCards: '20',
       score:  '10',
       timer:  '20:00:00'
+    },
+    {
+      initials: 'LHC',
+      numCards: '24',
+      score:  '12',
+      timer:  '24:00:00'
     }
   ]
 )

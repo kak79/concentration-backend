@@ -6,46 +6,19 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-pictures = Picture.create(
+games = Game.create(
   [
     {
-      image_name: 'Boar'
+      initials: 'KAK',
+      numCards: '12',
+      score:  '6',
+      timer:  '12:00:00'
     },
     {
-      image_name: 'cardBack'
-    },
-    {
-      image_name: 'Cat'
-    },
-    {
-      image_name: 'Cow and Calf'
-    },
-    {
-      image_name: 'Deer'
-    },
-    { 
-      image_name: 'Ducks'
-    },
-    {
-      image_name: 'Goose'
-    },
-    {
-      image_name: 'Horse'
-    },
-    {
-      image_name: 'Piglet'
-    },
-    {
-      image_name: 'Puppy'
-    },
-    {
-      image_name: 'Rooster'
-    },
-    {
-      image_name: 'White Moose'
-    },
-    {
-      image_name: 'Wolf'
+      initials: 'BCH',
+      numCards: '20',
+      score:  '10',
+      timer:  '20:00:00'
     }
   ]
 )

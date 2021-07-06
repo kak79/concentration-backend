@@ -16,7 +16,6 @@ ActiveRecord::Schema.define(version: 2021_06_28_171101) do
     t.string "initials"
     t.integer "numCards"
     t.integer "score"
-    t.time "timer"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

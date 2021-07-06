@@ -11,20 +11,17 @@ games = Game.create(
     {
       initials: 'KAK',
       numCards: '12',
-      score:  '6',
-      timer:  '12:00:00'
+      score:  '6'
     },
     {
       initials: 'BCH',
       numCards: '20',
-      score:  '10',
-      timer:  '20:00:00'
+      score:  '10'
     },
     {
       initials: 'LHC',
       numCards: '24',
-      score:  '12',
-      timer:  '24:00:00'
+      score:  '12'
     }
   ]
 )

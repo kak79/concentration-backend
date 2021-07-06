@@ -1,3 +1,3 @@
 class GameSerializer < ActiveModel::Serializer
-  attributes :id, :initials, :numCards, :score, :timer
+  attributes :id, :initials, :numCards, :score
 end
